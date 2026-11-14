@@ -1,0 +1,11 @@
+appId: com.example.landing_page
+---
+- launchApp:
+    clearState: false
+- assertVisible: "ALL PRODUCTS"
+- tapOn: "PRESETS"
+- assertVisible: "PRESETS"
+- tapOn: "TEMPLATES"
+- assertVisible: "TEMPLATES"
+- tapOn: "ALL"
+- assertVisible: "ALL PRODUCTS"

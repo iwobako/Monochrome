@@ -1,0 +1,9 @@
+appId: com.example.landing_page
+---
+- launchApp:
+    clearState: false
+- assertVisible: "MONOCHROME"
+- assertVisible: "DIGITAL GOODS DEPARTMENT"
+- assertVisible: "THE COLLECTION"
+- assertVisible: "ALL PRODUCTS"
+- assertVisible: "Search products, presets, files..."

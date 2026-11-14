@@ -1,0 +1,9 @@
+appId: com.example.landing_page
+---
+- launchApp:
+    clearState: false
+- tapOn: "Search products, presets, files..."
+- inputText: "Hidup Jokowi"
+- assertVisible: "Hidup Jokowi"
+- eraseText: 12
+- assertVisible: "Search products, presets, files..."

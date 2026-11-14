@@ -1,0 +1,45 @@
+appId: com.example.landing_page
+---
+- launchApp:
+    clearState: true
+- swipe:
+    start: 0%, 0%
+    end: 0%, 0%
+    duration: 400
+- swipe:
+    start: 1%, 50%
+    end: 75%, 50%
+    duration: 400
+- assertVisible: "ACCESS REQUIRED"
+- tapOn: "REGISTER"
+- assertVisible: "NEW MEMBERSHIP / 002"
+- scrollUntilVisible:
+    element:
+      text: "CREATE ACCOUNT"
+    direction: DOWN
+    timeout: 10000
+- tapOn: "CREATE ACCOUNT"
+- scrollUntilVisible:
+    element:
+      text: "Full name is required."
+    direction: UP
+    timeout: 10000
+- assertVisible: "Full name is required."
+- scrollUntilVisible:
+    element:
+      text: "Email address is required."
+    direction: DOWN
+    timeout: 10000
+- assertVisible: "Email address is required."
+- scrollUntilVisible:
+    element:
+      text: "Password is required."
+    direction: DOWN
+    timeout: 10000
+- assertVisible: "Password is required."
+- scrollUntilVisible:
+    element:
+      text: "Please confirm your password."
+    direction: DOWN
+    timeout: 10000
+- assertVisible: "Please confirm your password."

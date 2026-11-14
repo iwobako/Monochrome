@@ -1,0 +1,28 @@
+appId: com.example.landing_page
+---
+- launchApp:
+    clearState: false
+- swipe:
+    start: 0%, 0%
+    end: 0%, 0%
+    duration: 400
+- swipe:
+    start: 1%, 50%
+    end: 75%, 50%
+    duration: 400
+- assertVisible: "ACCESS REQUIRED"
+- tapOn: "LOGIN"
+- assertVisible: "SIGN IN"
+- scrollUntilVisible:
+    element:
+      text: "SIGN IN"
+    direction: DOWN
+    timeout: 10000
+- tapOn: "SIGN IN"
+- assertVisible: "Email address is required."
+- scrollUntilVisible:
+    element:
+      text: "Password is required."
+    direction: DOWN
+    timeout: 10000
+- assertVisible: "Password is required."
