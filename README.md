@@ -200,7 +200,9 @@ Gunakan **Maestro Studio Desktop** (bukan Maestro CLI) untuk membuka dan menjala
 
 ## Video Penjelasan dan File APK
 
-**Tautan video:** 
+**Tautan video**
+**Tentang aplikasi** https://drive.google.com/file/d/1eEgulwuJrkG49qvyq9TAZOLfERavi957/view?usp=drive_link
+**Pengujian APK** https://drive.google.com/file/d/16LlVEDl36mw_rHUhepciBjFZqMawZc29/view?usp=drive_link
 
 **Tautan APK:** https://drive.google.com/file/d/18yUvaXsbJjLMPIH3CiAvfOPn2Z3ySgUL/view?usp=drive_link
 
