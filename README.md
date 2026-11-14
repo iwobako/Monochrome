@@ -93,7 +93,7 @@ https://docs.google.com/spreadsheets/d/1xig_gM2iNPv7-fRPRLmvSt6vJ5l7xsoN/edit?us
 
 ```text
 Monochrome/
-├── .maestro/
+├── maestro/
 │   └── flows/
 │       ├── 01_home_screen.yaml
 │       ├── 02_category_filter.yaml
